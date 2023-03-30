@@ -62,6 +62,9 @@ from .src.basis_funcs import LogisticBasisFuncKernel, LinearSlopeBasisFuncKernel
 from .src.grid_kerns import GridRBF
 from .src.symmetric import Symmetric
 
+from .src.tanimoto import Tanimoto
+from .src.tanimoto_np import Tanimoto_NP
+
 from .src.sde_matern import sde_Matern32
 from .src.sde_matern import sde_Matern52
 from .src.sde_linear import sde_Linear
