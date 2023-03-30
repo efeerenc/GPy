@@ -41,3 +41,12 @@ class Tanimoto_NP():
     
     def K_diag(self, X):
         return self.variance*np.ones(X.shape[0])
+
+    def parameters_changed(self):
+        pass
+
+    def update_gradients_diag(self, a, b):
+        pass
+
+    def update_gradients_full(self, a, b, c):
+        pass
